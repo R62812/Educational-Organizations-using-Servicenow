@@ -196,12 +196,15 @@ Parent Portal Access
 
 Performance Analytics Dashboard
 
-PROJECT TEAM
+PROJECT TEAM:
+
 Rushitha Konangi
 C Prathyusha
 C Sai Prathyusha Reddy
 Guduru Saritha
+github link:
+https://github.com/R62812/Educational-Organizations-using-Servicenow
 
-C Sai Prathyusha Reddy
 
-Guduru Saritha
+
+
