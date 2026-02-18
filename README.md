@@ -1,4 +1,3 @@
-# Educational-Organizations-using-Servicenow
 Educational Organisation Management System
 Project Overview
 
@@ -128,11 +127,17 @@ Data reference validation
 
 Screenshots
 
-(Add screenshots of Admission Form, Student Progress Form, and Result Output here.)
+Add screenshots of:
+
+Admission Form
+
+Student Progress Form
+
+Result Output
 
 Demo Video
 
-(Add project demo video link or file reference here.)
+Add your project demo video link or file reference here.
 
 Future Enhancements
 
