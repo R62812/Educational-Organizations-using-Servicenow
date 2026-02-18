@@ -198,10 +198,13 @@ Performance Analytics Dashboard
 
 PROJECT TEAM:
 
-Rushitha Konangi
-C Prathyusha
-C Sai Prathyusha Reddy
-Guduru Saritha
+> Rushitha Konangi
+> C Prathyusha
+> C Sai Prathyusha Reddy
+> Guduru Saritha
+
+
+
 github link:
 https://github.com/R62812/Educational-Organizations-using-Servicenow
 
