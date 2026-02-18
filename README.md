@@ -1,23 +1,31 @@
-Educational Organisation Management System
-Project Overview
+EDUCATIONAL ORGANISATION MANAGEMENT SYSTEM
+PROJECT OVERVIEW
 
-The Educational Organisation Management System is developed using ServiceNow to automate student admission management and academic progress tracking. The system replaces manual record handling with a centralized digital platform that improves accuracy, efficiency, and transparency in managing student data.
+The Educational Organisation Management System is developed using ServiceNow to automate student admission management and academic progress tracking.
 
-Problem Statement
+The system replaces manual record handling with a centralized digital platform that improves accuracy, efficiency, and transparency in managing student data.
 
-Educational institutions often manage student admissions and academic records manually, which leads to data redundancy, calculation errors, and difficulty in tracking student performance. This project provides an automated solution to manage admissions and academic progress efficiently.
+PROBLEM STATEMENT
 
-Solution
+Educational institutions often manage student admissions and academic records manually, which leads to:
 
-The system automates admission entry, subject marks management, total and percentage calculation, and result generation using ServiceNow forms, client scripts, and business logic. It ensures accurate data storage and easy retrieval of student records.
+Data redundancy
 
-Features
+Calculation errors
 
-Student admission management
+Manual workload
 
-Unique admission number generation
+Difficulty in tracking student performance
 
-Student progress tracking
+This project provides an automated solution using ServiceNow.
+
+SOLUTION
+
+The system automates:
+
+Admission record creation
+
+Subject marks entry
 
 Automatic total calculation
 
@@ -25,14 +33,36 @@ Automatic percentage calculation
 
 Result generation (Pass/Fail)
 
-Reference-based data fetching
+Using:
 
-Centralized data storage
+ServiceNow Forms
 
-Role-based access control
+Client Scripts
 
-System Modules
-Admission Module
+Business Rules
+
+Reference Fields
+
+FEATURES
+
+Student Admission Management
+
+Unique Admission Number Generation
+
+Student Progress Tracking
+
+Automatic Total Calculation
+
+Automatic Percentage Calculation
+
+Automatic Result Generation
+
+Centralized Data Storage
+
+Role-Based Access Control
+
+SYSTEM MODULES
+1. ADMISSION MODULE
 
 Creation of student admission records
 
@@ -40,15 +70,21 @@ Storage of personal and academic details
 
 Database record management
 
-Student Progress Module
+Unique admission number generation
+
+2. STUDENT PROGRESS MODULE
 
 Subject-wise marks entry
 
-Automatic calculation of total and percentage
+Automatic total calculation
+
+Automatic percentage calculation
 
 Automatic result generation
 
-Subjects Included
+Reference-based student data fetching
+
+SUBJECTS INCLUDED
 
 Hindi
 
@@ -62,18 +98,18 @@ Social
 
 Maths
 
-Technology Stack
+TECHNOLOGY STACK
 Component	Technology
 Platform	ServiceNow
 Database	ServiceNow Tables
 Scripting	Client Scripts
 Automation	Business Rules
 UI	ServiceNow Forms
-System Architecture (Simple Flow)
+SYSTEM ARCHITECTURE
 
 User → Admission Form → Database Storage → Student Progress Form → Marks Entry → Calculation Logic → Result Generation → Record Storage
 
-Business Logic
+BUSINESS LOGIC
 
 Total = Hindi + English + Telugu + Science + Social + Maths
 
@@ -85,77 +121,86 @@ Pass if Percentage ≥ 35
 
 Fail if Percentage < 35
 
-Installation and Setup
+RESULTS AND OUTPUTS
 
-Login to ServiceNow Developer Instance
+The system was successfully implemented and tested in the ServiceNow Developer Instance environment.
 
-Create Admission and Student Progress tables
+ADMISSION MODULE RESULTS
 
-Configure fields and reference relationships
+Student admission records created successfully
 
-Design forms
+Unique admission numbers generated automatically
 
-Implement client scripts and business rules
+Student details stored without duplication
 
-Test application functionality
+Records saved and retrieved correctly
 
-Usage
+Reference relationship established with Student Progress module
 
-Login to ServiceNow
+STUDENT PROGRESS MODULE RESULTS
 
-Create a new admission record
+Subject-wise marks entered successfully
 
-Save student details
+Total marks calculated automatically
 
-Open student progress module
+Percentage calculated accurately
 
-Enter subject marks
+Result (Pass/Fail) generated based on percentage
 
-System automatically calculates total, percentage, and result
+Real-time updates using client scripts and business rules
 
-Testing
+FUNCTIONAL TESTING RESULTS
+Valid Data Entry Testing
 
-Functional testing
+Accurate total calculation
 
-Form validation testing
+Correct percentage display
 
-Business logic testing
+Proper result generation
 
-Calculation accuracy testing
+Boundary Testing
 
-Data reference validation
+Percentage below 35 → Result shows Fail
 
-Screenshots
+Percentage ≥ 35 → Result shows Pass
 
-Add screenshots of:
+Automation Testing
 
-Admission Form
+Client scripts executed correctly
 
-Student Progress Form
+Business rules triggered automatically
 
-Result Output
+No manual calculation required
 
-Demo Video
+PERFORMANCE OUTCOME
 
-Add your project demo video link or file reference here.
+100% calculation accuracy
 
-Future Enhancements
+Reduced manual workload
 
-Attendance tracking module
+Elimination of calculation errors
 
-Teacher dashboard
+Improved efficiency
 
-Report generation (PDF/Excel)
+Faster result processing
 
-Parent portal access
+FUTURE ENHANCEMENTS
 
-Performance analytics dashboard
+Attendance Tracking Module
 
-Project Team
+Teacher Dashboard
 
+Report Generation (PDF/Excel)
+
+Parent Portal Access
+
+Performance Analytics Dashboard
+
+PROJECT TEAM
 Rushitha Konangi
-
 C Prathyusha
+C Sai Prathyusha Reddy
+Guduru Saritha
 
 C Sai Prathyusha Reddy
 
