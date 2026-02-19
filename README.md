@@ -203,6 +203,9 @@ PROJECT TEAM:
 > C Sai Prathyusha Reddy
 > Guduru Saritha
 
+VIDEO DEMO LINK:
+https://1drv.ms/v/c/7455facdcc191830/IQAAK67S7OjHSbPyh1rhUGzBAbKtPFeJDGzgAdGD4h-ole8?e=eJWzio
+
 
 
 github link:
